@@ -1,0 +1,5 @@
+{"level":"error","ts":"2023-06-19T16:51:27.823+0530","caller":"main/main.go:29","msg":"Cannot load config file","stacktrace":"main.main\n\t/home/neebal/Music/GoLang Project/GoLang Admission API/go-samples/cmd/main/main.go:29\nruntime.main\n\t/snap/go/current/src/runtime/proc.go:250"}
+{"level":"error","ts":"2023-06-19T16:51:27.823+0530","caller":"main/main.go:33","msg":"cannot connect DBsql: unknown driver \"\" (forgotten import?)","stacktrace":"main.main\n\t/home/neebal/Music/GoLang Project/GoLang Admission API/go-samples/cmd/main/main.go:33\nruntime.main\n\t/snap/go/current/src/runtime/proc.go:250"}
+{"level":"error","ts":"2023-06-19T16:51:27.823+0530","caller":"main/main.go:59","msg":"cannot create token maker: invalid key size: must be at least 32 characters","stacktrace":"main.httpServer\n\t/home/neebal/Music/GoLang Project/GoLang Admission API/go-samples/cmd/main/main.go:59"}
+{"level":"info","ts":"2023-06-19T16:51:27.823+0530","caller":"main/main.go:50","msg":"server Started at [::]:46795"}
+{"level":"info","ts":"2023-06-19T16:51:27.823+0530","caller":"main/main.go:82","msg":"Http server Started at :[::]:35969"}

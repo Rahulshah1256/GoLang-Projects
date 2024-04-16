@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pdf;
+
+service PDFService {
+  rpc GeneratePDF (PDFRequest) returns (PDFResponse);
+}
+
+message PDFRequest {
+  string content = 1;
+}
+
+message PDFResponse {
+  bytes pdf_data = 1;
+}

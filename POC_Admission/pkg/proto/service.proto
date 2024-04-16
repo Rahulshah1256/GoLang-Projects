@@ -1,0 +1,11 @@
+syntax="proto3";
+package pb;
+import "login.proto";
+import "registration.proto";
+option go_package="./proto";
+
+service AdmissionService{
+    rpc getLogin(LoginRequest) returns (LoginResponse){}
+    rpc CreateRegistration(RegistraionRequest) returns (RegistraionResponse){}
+    rpc GetRegInfo (getReg) returns (RegistraionRequest){}
+}

@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS "admission";
+DROP TABLE IF EXISTS "registration";
+DROP TABLE IF EXISTS "login";

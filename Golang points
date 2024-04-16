@@ -1,0 +1,11 @@
+
+mockgen -destination=pkg/db/mock/store.go -package=mock poc_admission/pkg/db/sqlc Stor
+
+
+
+unit test cases - coverage in sonar
+admin console -- secure and if we can replay retry -- authentication/ authori
+
+temporal cloud vs temporal works in AWS and azure
+
+database associated with temporal cluster
